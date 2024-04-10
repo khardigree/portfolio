@@ -1,0 +1,75 @@
+* {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+nav {
+  display: flex;
+  /* background-color: #4285f5; */
+  min-height: 100px;
+  margin: 0;
+}
+
+.headerLinks {
+  display: flex;
+  position: absolute;
+  justify-content: space-between;
+  right: 20px;
+  margin: 20px;
+  width: auto;
+  align-items: center;
+}
+
+.navbar {
+  color: white;
+  display: flex;
+  font-size: largest;
+  background: linear-gradient(to bottom, #106465, #063333);
+}
+
+.navHeader {
+  display: flex;
+  position: relative;
+  margin: 20px, 20px;
+  left: 20px;
+  font-size: 50px;
+}
+
+button {
+  color: #106465;
+  border: 1px solid, #106465;
+  border: #106465;
+  font-size: large;
+  font-weight: bold;
+  border-radius: 3px;
+  transition: background-color 0.3s;
+  padding: 3px;
+  margin: 5px;
+}
+
+button:hover {
+  background-color: #106465;
+  color: white;
+}
+
+.bioHeader {
+  display: flex;
+  font-size: 40px;
+  justify-content: end;
+  position: relative;
+  min-height: 100px;
+  background: linear-gradient(to bottom, #063333, #106465);
+  margin: 0;
+  color: white;
+}
+
+.bheading {
+  display: flex;
+  position: relative;
+  margin: 20px, 20px;
+  right: 20px;
+  font-size: 50px;
+}
+
+.bio {
+  font-size: largest;
+}
