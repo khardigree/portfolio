@@ -1,58 +1,129 @@
-
-*{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+* {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
-
-body, h1, p, ul, li {
-    margin: 0;
-    padding: 0;
+/* resets the margins for the page */
+body,
+h1,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
 }
-
 
 header {
-    text-align: center;
-    background: linear-gradient(to bottom, #E6E6FA, #b7b7f4);
-    padding: 20px;
+  text-align: center;
+  background: linear-gradient(to bottom, #e6e6fa, #b7b7f4);
+  padding: 20px;
 }
-
 
 h1 {
-    font-size: 36px;
-    margin-bottom: 15px;
+  font-size: 36px;
+  margin-bottom: 15px;
 }
-
 
 p {
-    font-size: 18px;
-    margin-bottom: 20px;
+  font-size: 18px;
+  margin-bottom: 20px;
 }
 
-
 .navbar ul {
-    list-style: none;
+  list-style: none;
 }
 
 .navbar li {
-    display: inline;
-    margin-right: 20px;
+  display: inline;
+  margin-right: 20px;
 }
 
 .navbar a {
-    text-decoration: none;
-    color: #333;
-    font-size: 20px;
-}
-
-
-.avatar {
-    text-align: center;
-    margin-top: 20px;
+  text-decoration: none;
+  color: #333;
+  font-size: 20px;
 }
 
 .avatar img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    align-items: center;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  align-items: center;
 }
 
+.bio {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+}
+
+aside {
+  flex: 1;
+  padding: 40px;
+  align-items: right;
+}
+
+h2 {
+  font-size: 200%;
+  text-align: center;
+}
+
+.contactMe {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.contactLinks {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  justify-content: center;
+  margin: auto;
+  flex: 1;
+  width: 50%;
+}
+
+a img {
+  width: 50%;
+}
+
+.larger {
+  width: 40%;
+}
+
+hr {
+  height: 10px;
+  background-color: #b7b7f4;
+}
+
+.contact {
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+.contactLinks {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  background-color: #b7b7f4;
+  color: #e6e6fa;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-right: 10px;
+}
+
+button:hover {
+  background-color: black;
+  color: #e6e6fa;
+}
